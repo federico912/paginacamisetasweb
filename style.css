@@ -1,0 +1,30 @@
+body{background-color: bisque;}
+
+h1{color:rgb(238, 130, 153)}
+
+h2{color:rgb(146, 86, 26)}
+
+#titulo{font-size: 70px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#titular{color:rgb(43, 226, 217);font-size: 100px;}
+
+.elemento{ color:rgb(255, 0, 0) ;}
+
+.margenes{ margin-top:50px}
+
+h2 {
+    width: 300px;
+    border: 15px solid rgb(128, 113, 0);
+    padding: 50px;
+    margin: 20px;
+  }
+
+h6{
+
+    position: relative;
+
+}
+
+#fotokir{border: 20px solid rgb(250, 4, 226);
+    margin-left: 30%;
+}
