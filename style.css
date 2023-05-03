@@ -23,6 +23,8 @@ body{
     background-color: rgb(195, 220, 222);
 }
 
+
+
 *{font-family: helvetica;
     margin:0px
 }
@@ -38,6 +40,25 @@ body{
     padding-top: 5vw;
 }
 
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 12vw;
+    margin-right: 12vw ;
+    padding-top: 5vw;
+}
+
+/* ahora flexcontainer
+.flex-container2 img{
+    width: 17vw;
+}*/
+
+
+.card a{
+    background-color: cadetblue;
+}
 
 
 
@@ -240,5 +261,21 @@ header div{
 }
 
 footer div a img{width: 20vw;} /*?????????*/
+
+
+/*
+*{
+    background-color: blueviolet;
+}*/
+
+
+
+.flex-container2{
+    
+    
+    padding-top: 5vw;
+    padding-bottom: 17vw;
+}
+
     
 }
