@@ -23,6 +23,10 @@ body{
     background-color: rgb(195, 220, 222);
 }
 
+.titulo{
+    
+    display: none;
+}
 
 
 *{font-family: helvetica;
@@ -48,7 +52,11 @@ body{
     margin-left: 12vw;
     margin-right: 12vw ;
     padding-top: 5vw;
+
 }
+
+
+
 
 /* ahora flexcontainer
 .flex-container2 img{
@@ -70,7 +78,7 @@ width: 20vw;
 
 
 
-/* quiero centrar la barra de navegacion y no se como*/
+/*  barra de navegacion */
 
 header a{
     
@@ -186,7 +194,7 @@ footer{
 	display: flex;
 	overflow-x: scroll;
 	padding: 24px;
-	width: 400px;
+	width: 600px;
 	/*height: 560px;*/
 	scroll-snap-type: x mandatory;
 	scroll-padding: 24px;
@@ -239,14 +247,31 @@ background-color: blueviolet;}
 
 }
 */
-
-@media (max-width: 600px) {
+br{display: none;
+}
+@media only screen and (max-width: 600px) {
 
     
 .flex-container img{
     width: 50vw;
     padding-bottom: 10vw;
     padding-top: 8vw;
+
+}
+br{display:inline;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 12vw;
+    margin-right: 12vw ;
+    padding-top: 5vw;
+    
+
+   
+    
 
 }
 
@@ -260,22 +285,42 @@ header div{
     padding-bottom: 2vw;
 }
 
-footer div a img{width: 20vw;} /*?????????*/
+footer div a img{width: 20vw;} /*?*/
 
 
-/*
-*{
+
+
+ /*?????????
+body{
     background-color: blueviolet;
 }*/
-
-
-
-.flex-container2{
+/*
+header div a{
     
-    
-    padding-top: 5vw;
-    padding-bottom: 17vw;
+    width: 30vw;
 }
 
+.camisetas {
+    display: flex;
     
+   
+    
+    
+}*/
+
+/*header{
+    
+    display: none;
+}
+
+.titulo{
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    background-color: cadetblue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline;
+    
+}*/
+
 }
