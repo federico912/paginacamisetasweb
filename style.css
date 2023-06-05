@@ -10,7 +10,16 @@ header{
     color: rgb(255, 255, 255);
     text-align: center;
 }
-
+/* .headerjuampa{
+    
+    background-color: rgb(19, 16, 16);
+    
+} */
+.bg-cadetblue{
+    
+    background-color: rgb(49, 112, 114);
+    
+}
 header h1{
     padding-bottom: 2vw;
 }
@@ -42,6 +51,7 @@ body{
     margin-left: 22vw;
     margin-right: 22vw ;
     padding-top: 5vw;
+    
 }
 
 .flex-container2{
@@ -52,6 +62,7 @@ body{
     margin-left: 12vw;
     margin-right: 12vw ;
     padding-top: 5vw;
+    
 
 }
 
@@ -229,7 +240,7 @@ h3{
     
     
 }
-
+/*-left: 5vw;*/
 
 
 
@@ -247,6 +258,13 @@ background-color: blueviolet;}
 
 }
 */
+p{
+    font-size: larger;
+}
+body{
+    background-color: rgb(195, 220, 222);
+}
+
 br{display: none;
 }
 @media only screen and (max-width: 600px) {
@@ -258,6 +276,7 @@ br{display: none;
     padding-top: 8vw;
 
 }
+
 br{display:inline;
 }
 .flex-container2{
@@ -275,6 +294,7 @@ br{display:inline;
 
 }
 
+
 p{ padding: 3vw;}
 h1{padding-top: 1vw;
 padding-bottom: 1vw;}
@@ -285,7 +305,22 @@ header div{
     padding-bottom: 2vw;
 }
 
+
 footer div a img{width: 20vw;} /*?*/
+
+.container{
+	display: flex;
+	overflow-x: scroll;
+	padding: 24px;
+	width: 350px;
+	/*height: 560px;*/
+	scroll-snap-type: x mandatory;
+	scroll-padding: 24px;
+	border-radius: 8px;
+	gap: 12px;
+	margin: 2rem auto;
+}
+
 
 
 
